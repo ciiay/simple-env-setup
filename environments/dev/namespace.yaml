@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    app.openshift.io/vcs-uri: https://github.com/ciiay/simple-env-example.git?ref=HEAD
+    app.openshift.io/vcs-uri: https://github.com/ciiay/simple-env-setup.git?ref=HEAD
     app.openshift.io/vcs-ref: main
   creationTimestamp: null
   labels:
