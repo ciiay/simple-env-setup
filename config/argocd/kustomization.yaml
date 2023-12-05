@@ -1,0 +1,4 @@
+resources:
+- argo-app.yaml
+- app-taxi-env.yaml
+- app-taxi-stage.yaml
