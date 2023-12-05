@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: taxi
     app.kubernetes.io/part-of: app-taxi
   name: taxi
-  namespace: stage
+  namespace: app-taxi-stage
 spec:
   replicas: 1
   selector:

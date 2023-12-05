@@ -3,7 +3,7 @@ kind: Route
 metadata:
   creationTimestamp: null
   name: taxi
-  namespace: stage
+  namespace: app-taxi-stage
 spec:
   port:
     targetPort: http
