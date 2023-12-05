@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app.kubernetes.io/name: app-taxi
+    openshift.gitops/environment: stage
   name: app-taxi-stage
   namespace: openshift-gitops
 spec:
