@@ -4,6 +4,8 @@ metadata:
   creationTimestamp: null
   name: argo-app
   namespace: openshift-gitops
+  labels:
+    app.kubernetes.io/name: app-taxi
 spec:
   destination:
     namespace: openshift-gitops
